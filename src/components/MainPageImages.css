@@ -1,0 +1,19 @@
+.isocmainlogo {
+    filter: drop-shadow(0 0 2em #2e6cabfa);
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Maintain aspect ratio */
+    transition: filter 300ms, transform 0.5s; /* Combine transitions */
+    z-index: 102;
+    border-radius:30px;
+  }
+  
+  .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.isocmainlogo:hover {
+    transform: scale(1.06);
+}
