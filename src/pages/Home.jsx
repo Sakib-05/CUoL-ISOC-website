@@ -6,13 +6,16 @@ function Home(){
     return(
         <>
         <div>
-        <h1 className='isocmainheader '>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h1>
+
+        <div className='container'>
+        <h1 className='salaamsheader '>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h1>
         <h2 className='isocmainheader'>City University of London ISOC</h2>         
         </div>
-
+        </div>      
         
         <MainPageImages/>
-        
+    
+    
         
         
         </>
