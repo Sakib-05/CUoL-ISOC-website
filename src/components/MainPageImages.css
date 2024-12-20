@@ -5,15 +5,37 @@
     transition: filter 300ms, transform 0.5s; /* Combine transitions */
     z-index: 102;
     border-radius:30px;
+    margin: 50px;
   }
   
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+
+
   .parent-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center; 
 }
 
 
 .isocmainlogo:hover {
     transform: scale(1.06);
+}
+
+.citybanner{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  gap: 20px;
 }
